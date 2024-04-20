@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	background-image: url('images/01-1.png'),
+					  url('images/01-2.png'),
+					  url('images/01.png');
+	background-position: right,
+						 right, 
+						 center;
+	background-repeat: no-repeat;
+	background-size: contain, contain, cover;	
+	height: 860px;
+}
+header h3{
+	color: #d9451c;
+	font-size: 40px;
+	text-transform:uppercase;
+}
+header h1{
+	color: #f0942b;
+	font-size: 70px;
+	text-transform:uppercase;
+}
+.header-text{
+	padding-left: 50px;
+	padding-top: 200px;
+}
+.header-text div{
+	color: #d9451c;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+header img{
+	vertical-align: middle;
+}
+.section-1{
+	background-color:#701218;
+	background-image:url('images/02.png');
+	background-position: center top -150px;
+	background-repeat: no-repeat;
+	
+	height: 860px;
+}
